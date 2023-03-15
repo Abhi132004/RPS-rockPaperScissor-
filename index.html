@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="shortcut icon" href="logo.png">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RPS by Abhishek</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div id="main" class="main">
+        <div class="upper-box">
+            <p id="ubtext">Rock Paper Scissor</p>
+            <div class="cardsU">
+                <div class="card1">Computer
+                    <br>
+                    <div id="score">Score</div> <br>
+                    <div id="number1">0</div>
+                </div>
+                <div class="card2">Your
+                    <br>
+                    <div id="score">Score</div> <br>
+                    <div id="number2">0</div>
+                </div>
+                <!-- <button id="reset">RESET</button> -->
+            </div>
+        </div>
+
+
+
+        <div id="ftbox" class="ft-box">
+
+            <div class="subMain">
+
+                <button id="fist">
+                    <img src="fist.png" alt="load">
+                </button>
+
+                <hr class="fistToScissor">
+                <hr class="fistToPaper">
+
+
+                <button id="scissor">
+                    <img src="sci.png" alt="load">
+                </button>
+
+
+                <button id="paper"><img src="paper.png" alt="load"></button>
+
+                <hr class="scissorToPaper">
+            </div>
+
+        </div>
+
+
+        <div id="ftb">
+
+            <div id="fistFrame1">
+                <img class="resizeimg" src="fist.png" alt="load">
+            </div>
+            <div id="scissorFrame1">
+                <img class="resizeimg" src="sci.png" alt="load" style="
+                left: 54px;
+                top: 38px;
+            ">
+            </div>
+            <div id="paperFrame1"><img class="resizeimg" src="paper.png" alt="load" style="
+                left: 41px;
+                top: 38px;
+            "></div>
+
+            <h3 id="youP">YOU PICKED</h3>
+            <h3 id="pcP">PC PICKED</h3>
+
+
+
+            <div id="border">
+                <div id="borderframe1"></div>
+                <div id="borderframe2"></div>
+                <div id="borderframe3"></div>
+            </div>
+            <div id="borderA">
+                <div id="borderframe1A"></div>
+                <div id="borderframe2A"></div>
+                <div id="borderframe3A"></div>
+            </div>
+
+
+
+
+
+            <div id="win">
+                <h1>YOU WIN</h1> <br>
+                <h2>AGAINST PC</h2>
+                <button id="playaagain" class="playAgain">PLAY AGAIN</button>
+            </div>
+
+            <div id="lost">
+                <h1>YOU LOST</h1> <br>
+                <button id="playagain" class="playAgain">PLAY AGAIN</button>
+            </div>
+
+            <div id="tie">
+                <h1>TIE UP</h1> <br>
+                <button id="playAgain" class="playAgain">REPLAY</button>
+            </div>
+
+
+
+            <div id="fistFrame2"><img class="resizeimg" src="fist.png" alt="load"></div>
+            <div id="scissorFrame2"><img class="resizeimg" src="sci.png" alt="load" style="
+                left: 54px;
+                top: 38px;
+            "></div>
+            <div id="paperFrame2"><img class="resizeimg" src="paper.png" alt="load" style="
+                left: 41px;
+                top: 38px;
+            "></div>
+
+
+
+
+
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div id="main2">
+        <img src="1.png" alt="load" id="timg">
+        <button id="Pagain">Play Again</button>
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <button id="rules">RULES</button>
+    <div id="rulesbox">
+        <button id="close">X</button>
+        <h3>Game Rules</h3>
+        <ul style="list-style-type: square;">
+            <li class="list">Rock beats scissors, scissors beat paper, <br> and paper beats rock.</li> <br>
+
+            <li class="list">Agree ahead of time whether you’ll count off “rock, paper, scissors, shoot” or just “rock, paper, scissors.</li> <br>
+            <li class="list">Use rock, paper, scissors to settle minor decisions or simply play to pass the time</li> <br>
+            <li class="list">If both players lay down the same hand, each player lays down another hand</li>
+        </ul>
+
+    </div>
+
+    <button id="next">NEXT</button>
+    <audio id="successaudio" src="success.mp3"></audio>
+    <audio id="winaudio" src="win.wav">
+    <audio src="lost.mp3" id="lostaudio"></audio>
+    <audio src="tie.mp3" id="tieaudio"></audio>
+    <audio src="button-124476.mp3" id="buttonaudio"></audio>
+    <button id="next1">NEXT</button>
+
+
+
+    <script src="index.js"></script>
+
+</body>
+
+</html>
