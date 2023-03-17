@@ -467,8 +467,8 @@ body {
     cursor: pointer;
 }
 
-/* Responsiveness  */
-
+        /* Responsivness*/
+        
         @media screen and (max-width:1023px) {
             .upper-box {
                 margin: 30px;
@@ -527,6 +527,26 @@ body {
                 left: 70px;
                 top: -20px;
             }
+            .ft-box {
+                left: -37rem;
+            }
+            #rules {
+                left: 40.4rem;
+                bottom: -18rem;
+            }
+            #rulesbox {
+                bottom: -7rem;
+                left: 5.2rem;
+                z-index: 2;
+            }
+            #borderframe1 {
+                top: -1rem;
+                border: 50.1px solid rgb(52, 163, 52);
+                top: -10.8rem;
+            }
+            #borderframe2 {
+                top: -29.3rem;
+            }
         }
         
         @media screen and (max-width: 768px) {
@@ -571,5 +591,17 @@ body {
             #number1,
             #number2 {
                 font-size: 40px;
+            }
+            #borderframe1 {
+                top: -1rem;
+                border: 50.1px solid rgb(52, 163, 52);
+                top: -6.7rem;
+            }
+            #borderframe2 {
+                top: -25.2rem;
+            }
+            #rules {
+                left: 24.4rem;
+                bottom: -10rem;
             }
         }
