@@ -466,3 +466,110 @@ body {
     letter-spacing: 0.1em;
     cursor: pointer;
 }
+
+/* Responsiveness  */
+
+        @media screen and (max-width:1023px) {
+            .upper-box {
+                margin: 30px;
+                margin-left: 4%;
+                height: auto;
+                width: 90%;
+                display: flex;
+                flex-direction: column;
+                border: 3px solid white;
+                border-radius: 15px;
+            }
+            #ubtext {
+                font-size: 50px;
+                color: white;
+                font-weight: 600;
+                letter-spacing: 0.1em;
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                /* border: 1px solid red; */
+                /* border-radius: 15px; */
+            }
+            .cardsU {
+                position: relative;
+                top: 1.5rem;
+                left: 0;
+                height: auto;
+                width: 100%;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                flex-direction: column;
+                /* border: 2px solid red; */
+            }
+            .card1,
+            .card2 {
+                position: relative;
+                height: 170px;
+                width: 40%;
+                margin: 3px;
+                border-radius: 13px;
+                font-size: 25px;
+                background-color: white;
+                color: #656565;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                letter-spacing: 0.1em;
+                flex-direction: column;
+            }
+            .card1 {
+                top: -20px;
+            }
+            .card2 {
+                left: 70px;
+                top: -20px;
+            }
+        }
+        
+        @media screen and (max-width: 768px) {
+            .upper-box {
+                margin: 30px auto;
+                margin-left: auto;
+                height: auto;
+                width: 90%;
+                display: block;
+            }
+            #ubtext {
+                font-size: 30px;
+                width: auto;
+                text-align: center;
+            }
+            .cardsU {
+                position: relative;
+                left: auto;
+                height: auto;
+                width: 90%;
+                margin: 20px auto;
+            }
+            .card1,
+            .card2 {
+                position: relative;
+                height: auto;
+                width: 40%;
+                margin: 0 auto;
+            }
+            #reset {
+                position: static;
+                left: auto;
+                margin: 20px auto;
+            }
+            .card1 {
+                left: -2rem;
+            }
+            .card2 {
+                margin-top: 6px;
+                left: -2rem;
+            }
+            #number1,
+            #number2 {
+                font-size: 40px;
+            }
+        }
